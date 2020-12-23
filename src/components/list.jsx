@@ -4,6 +4,10 @@ import Item from './item/item';
 import styles from './list.module.css'
 
 const List = (props) => {
+  const handleOnPlayVideo = (videoId) => {
+    props.onPlayVideo(videoId)
+  }
+
   return (
     <>
       {console.log("list", props.items)}
@@ -12,7 +16,6 @@ const List = (props) => {
           const id = typeof item.id === 'object' ? item.id.videoId : item.id;
           const title = item.snippet.title
           const thumbnail = item.snippet.thumbnails.high.url;
-          console.log("id", id, "title", title, "thumbnail", thumbnail)
 
           return (
             <Item
@@ -20,6 +23,7 @@ const List = (props) => {
               id={id}
               title={title}
               thumbnail={thumbnail}
+              onPlayVideo={handleOnPlayVideo}
             />)
         })}
       </div>
