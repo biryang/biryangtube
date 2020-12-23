@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/biryangtube/static/css/main.2b8f4ba1.chunk.css",
+    "main.js": "/biryangtube/static/js/main.163b5ffb.chunk.js",
+    "main.js.map": "/biryangtube/static/js/main.163b5ffb.chunk.js.map",
+    "runtime-main.js": "/biryangtube/static/js/runtime-main.702f387a.js",
+    "runtime-main.js.map": "/biryangtube/static/js/runtime-main.702f387a.js.map",
+    "static/js/2.6c8cbb13.chunk.js": "/biryangtube/static/js/2.6c8cbb13.chunk.js",
+    "static/js/2.6c8cbb13.chunk.js.map": "/biryangtube/static/js/2.6c8cbb13.chunk.js.map",
+    "static/js/3.25c31237.chunk.js": "/biryangtube/static/js/3.25c31237.chunk.js",
+    "static/js/3.25c31237.chunk.js.map": "/biryangtube/static/js/3.25c31237.chunk.js.map",
+    "index.html": "/biryangtube/index.html",
+    "static/css/main.2b8f4ba1.chunk.css.map": "/biryangtube/static/css/main.2b8f4ba1.chunk.css.map",
+    "static/js/2.6c8cbb13.chunk.js.LICENSE.txt": "/biryangtube/static/js/2.6c8cbb13.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.702f387a.js",
+    "static/js/2.6c8cbb13.chunk.js",
+    "static/css/main.2b8f4ba1.chunk.css",
+    "static/js/main.163b5ffb.chunk.js"
+  ]
+}
