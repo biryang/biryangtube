@@ -1,0 +1,10 @@
+.item {
+  display: flex;
+  flex-direction: column;
+  outline: none;
+  border: 0;
+  cursor: pointer;
+}
+img{
+  object-fit:contain;
+}
